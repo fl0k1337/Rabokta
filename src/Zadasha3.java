@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MovieList {
+public class task3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] movies = new String[30];
@@ -14,11 +14,9 @@ public class MovieList {
             if (movie.equals("выход")) {
                 break;
             }
-            
             movies[i] = movie;
             count++;
         }
-
         System.out.println("Ваш список фильмов:");
         for (int i = 0; i < count; i++) {
             System.out.println(movies[i]);

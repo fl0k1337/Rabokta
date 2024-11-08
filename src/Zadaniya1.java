@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SwedishTaxCalculator {
+public class task1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите доход за месяц (SEK): ");
