@@ -7,14 +7,14 @@ public class task3 {
         int count = 0;
 
         System.out.println("Введите названия фильмов. Для завершения введите 'выход'.");
-        for (int i = 0; i < movies.length; i++) {
+        while (count < 30){
             System.out.print("Введите название фильма: ");
             String movie = scanner.nextLine();
 
-            if (movie.equals("выход")) {
+            if (movie.equals("ВЫХОД")) {
                 break;
             }
-            movies[i] = movie;
+            movies[count] = movie;
             count++;
         }
         System.out.println("Ваш список фильмов:");
