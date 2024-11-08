@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class zadasha2 {
+public class task2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Оцените наше приложение от 1 до 5:");
